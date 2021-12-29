@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD3EAF91277D00030066F5BC /* TicketShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3EAF90277D00030066F5BC /* TicketShareView.swift */; };
 		DD47A92327763ACE005B9E4A /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47A92227763ACE005B9E4A /* TicketsView.swift */; };
 		DD8ADBCD2773D63300C1ABCA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8ADBCC2773D63300C1ABCA /* MainView.swift */; };
 		DDDF273A2776576000F7506F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDF27392776576000F7506F /* StringExtension.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD3EAF90277D00030066F5BC /* TicketShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShareView.swift; sourceTree = "<group>"; };
 		DD47A92227763ACE005B9E4A /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
 		DD8ADBCC2773D63300C1ABCA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DDDF27392776576000F7506F /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
@@ -66,10 +68,11 @@
 				DDE235092773CF32002CBD09 /* RoutesView.swift */,
 				DD47A92227763ACE005B9E4A /* TicketsView.swift */,
 				DDDF273B277657B500F7506F /* CardListItem.swift */,
+				DD3EAF90277D00030066F5BC /* TicketShareView.swift */,
+				DDDF273D277657E200F7506F /* TransportMode.swift */,
 				DDDF27392776576000F7506F /* StringExtension.swift */,
 				DDE2350B2773CF32002CBD09 /* Assets.xcassets */,
 				DDE2350D2773CF32002CBD09 /* Preview Content */,
-				DDDF273D277657E200F7506F /* TransportMode.swift */,
 			);
 			path = Navigether;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				DDE2350A2773CF32002CBD09 /* RoutesView.swift in Sources */,
 				DD8ADBCD2773D63300C1ABCA /* MainView.swift in Sources */,
+				DD3EAF91277D00030066F5BC /* TicketShareView.swift in Sources */,
 				DDDF273C277657B500F7506F /* CardListItem.swift in Sources */,
 				DDDF273E277657E200F7506F /* TransportMode.swift in Sources */,
 				DDDF273A2776576000F7506F /* StringExtension.swift in Sources */,

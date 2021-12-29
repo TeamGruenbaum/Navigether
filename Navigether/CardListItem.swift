@@ -1,13 +1,12 @@
 import SwiftUI
 
-struct CardListItem: View
+struct CardListItem<V:View>: View
 {
     var header: String
+    var icon:String?
     var description: String
-    var imageAsset: String
-    var transportMode:TransportMode
-    var isGroupTicket: Bool
-    var peopleImageAssets:[String]
+    var imageAsset: String?
+    var bottomView:V?
     
 
     var body: some View
@@ -22,7 +21,7 @@ struct CardListItem: View
                 {
                     VStack(alignment: .leading, spacing: 0)
                     {
-                        Label(header, systemImage: TransportMode.getIcon(transportMode: transportMode))
+                        Label(header, systemImage: icon ?? "")
                             .labelStyle(.titleAndIcon)
                             .font(.headline)
                             .fixedSize(horizontal: false, vertical: true)
@@ -35,42 +34,22 @@ struct CardListItem: View
                         
                         
                         
-                        if(isGroupTicket)
+                        if(bottomView != nil)
                         {
                             Spacer()
                             
-                            HStack(alignment: .center)
-                            {
-                                Button(action:
-                                {
-                                    UIApplication.shared.windows.first?.rootViewController?.present(UIActivityViewController(activityItems: [header], applicationActivities: nil), animated: true, completion: nil)
-                                },
-                                label:
-                                {
-                                    Label("Teilen", systemImage: "square.and.arrow.up")
-                                    .labelStyle(.titleAndIcon)
-                                    .foregroundColor(Color(UIColor(named: "Secondary")!))
-                                    
-                                })
-                                .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 10))
-                                
-                                
-                                ForEach(peopleImageAssets)
-                                {peopleImageAsset in
-                                    
-                                    Image(peopleImageAsset)
-                                        .resizable()
-                                        .frame(width: 30, height: 30)
-                                }
-                            }
+                            bottomView
                         }
                     }
                     
                     Spacer()
                     
-                    Image(imageAsset)
-                        .resizable()
-                        .frame(width: 120, height: 120)
+                    if(imageAsset != nil)
+                    {
+                        Image(imageAsset!)
+                            .resizable()
+                            .frame(width: 120, height: 120)
+                    }
                 }
             }
             .padding(.all, 20)
