@@ -1,6 +1,7 @@
 enum TransportMode
 {
     case bus
+    case callbus
     case train
     case all
     
@@ -8,7 +9,8 @@ enum TransportMode
     {
         switch transportMode
         {
-            case .bus: return "bus";
+            case .bus: return "bus.fill";
+            case .callbus: return "phone.fill";
             case .train: return "tram.fill";
             case .all: return "circle.circle";
         }

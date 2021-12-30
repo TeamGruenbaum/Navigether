@@ -1,10 +1,3 @@
-//
-//  NavigetherApp.swift
-//  Navigether
-//
-//  Created by Steven Solleder on 22.12.21.
-//
-
 import SwiftUI
 
 @main

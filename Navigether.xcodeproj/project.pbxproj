@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A64CEC7D277E09F30063A10C /* RoutesResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64CEC7C277E09F30063A10C /* RoutesResultView.swift */; };
+		A64CEC7F277E11CA0063A10C /* RouteInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64CEC7E277E11CA0063A10C /* RouteInformationView.swift */; };
 		DD3EAF91277D00030066F5BC /* TicketShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3EAF90277D00030066F5BC /* TicketShareView.swift */; };
 		DD47A92327763ACE005B9E4A /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47A92227763ACE005B9E4A /* TicketsView.swift */; };
 		DD8ADBCD2773D63300C1ABCA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8ADBCC2773D63300C1ABCA /* MainView.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A64CEC7C277E09F30063A10C /* RoutesResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesResultView.swift; sourceTree = "<group>"; };
+		A64CEC7E277E11CA0063A10C /* RouteInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteInformationView.swift; sourceTree = "<group>"; };
 		DD3EAF90277D00030066F5BC /* TicketShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShareView.swift; sourceTree = "<group>"; };
 		DD47A92227763ACE005B9E4A /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
 		DD8ADBCC2773D63300C1ABCA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				DDDF27392776576000F7506F /* StringExtension.swift */,
 				DDE2350B2773CF32002CBD09 /* Assets.xcassets */,
 				DDE2350D2773CF32002CBD09 /* Preview Content */,
+				A64CEC7C277E09F30063A10C /* RoutesResultView.swift */,
+				A64CEC7E277E11CA0063A10C /* RouteInformationView.swift */,
 			);
 			path = Navigether;
 			sourceTree = "<group>";
@@ -126,7 +132,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				de,
 			);
 			mainGroup = DDE234FB2773CF32002CBD09;
 			productRefGroup = DDE235052773CF32002CBD09 /* Products */;
@@ -162,7 +168,9 @@
 				DDDF273E277657E200F7506F /* TransportMode.swift in Sources */,
 				DDDF273A2776576000F7506F /* StringExtension.swift in Sources */,
 				DD47A92327763ACE005B9E4A /* TicketsView.swift in Sources */,
+				A64CEC7F277E11CA0063A10C /* RouteInformationView.swift in Sources */,
 				DDE235082773CF32002CBD09 /* NavigetherApp.swift in Sources */,
+				A64CEC7D277E09F30063A10C /* RoutesResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
