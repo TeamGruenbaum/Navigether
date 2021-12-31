@@ -16,7 +16,7 @@ struct MainView:View
                     Label("Tickets", systemImage: "ticket.fill")
             }
             
-            Text("Noch zu erledigen")
+            CommunityView()
                 .tabItem {
                     Label("Community", systemImage: "person.2.fill")
             }

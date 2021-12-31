@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A64CEC7D277E09F30063A10C /* RoutesResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64CEC7C277E09F30063A10C /* RoutesResultView.swift */; };
 		A64CEC7F277E11CA0063A10C /* RouteInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64CEC7E277E11CA0063A10C /* RouteInformationView.swift */; };
+		A6CFD9C7277F338B00C07567 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CFD9C6277F338B00C07567 /* CommunityView.swift */; };
+		A6CFD9C9277F3C7200C07567 /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CFD9C8277F3C7200C07567 /* FriendView.swift */; };
 		DD3EAF91277D00030066F5BC /* TicketShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3EAF90277D00030066F5BC /* TicketShareView.swift */; };
 		DD47A92327763ACE005B9E4A /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47A92227763ACE005B9E4A /* TicketsView.swift */; };
 		DD8ADBCD2773D63300C1ABCA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8ADBCC2773D63300C1ABCA /* MainView.swift */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A64CEC7C277E09F30063A10C /* RoutesResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesResultView.swift; sourceTree = "<group>"; };
 		A64CEC7E277E11CA0063A10C /* RouteInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteInformationView.swift; sourceTree = "<group>"; };
+		A6CFD9C6277F338B00C07567 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		A6CFD9C8277F3C7200C07567 /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
 		DD3EAF90277D00030066F5BC /* TicketShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShareView.swift; sourceTree = "<group>"; };
 		DD47A92227763ACE005B9E4A /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
 		DD8ADBCC2773D63300C1ABCA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				DDE2350D2773CF32002CBD09 /* Preview Content */,
 				A64CEC7C277E09F30063A10C /* RoutesResultView.swift */,
 				A64CEC7E277E11CA0063A10C /* RouteInformationView.swift */,
+				A6CFD9C6277F338B00C07567 /* CommunityView.swift */,
+				A6CFD9C8277F3C7200C07567 /* FriendView.swift */,
 			);
 			path = Navigether;
 			sourceTree = "<group>";
@@ -166,10 +172,12 @@
 				DD3EAF91277D00030066F5BC /* TicketShareView.swift in Sources */,
 				DDDF273C277657B500F7506F /* CardListItem.swift in Sources */,
 				DDDF273E277657E200F7506F /* TransportMode.swift in Sources */,
+				A6CFD9C7277F338B00C07567 /* CommunityView.swift in Sources */,
 				DDDF273A2776576000F7506F /* StringExtension.swift in Sources */,
 				DD47A92327763ACE005B9E4A /* TicketsView.swift in Sources */,
 				A64CEC7F277E11CA0063A10C /* RouteInformationView.swift in Sources */,
 				DDE235082773CF32002CBD09 /* NavigetherApp.swift in Sources */,
+				A6CFD9C9277F3C7200C07567 /* FriendView.swift in Sources */,
 				A64CEC7D277E09F30063A10C /* RoutesResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
