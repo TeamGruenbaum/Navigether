@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct CommunityView:View
+struct ProfileView:View
 {
     var body:some View
     {
@@ -25,54 +25,46 @@ struct CommunityView:View
                     
                     
                     Section(header:
-                        Label("Über dich", systemImage: "person.fill")
+                        Label("About you", systemImage: "person.fill")
                         .font(Font.system(size: 17, weight: .bold))
                         .foregroundColor(Color(UIColor(named: "Primary")!))
                         )
                     {
                         Text("Bruce Anderson")
-                        Text("31.12.1990")
-                        Text("Langquaid, Bayern")
-                        Text("120 Community-Punkte")
-                        Text("Mitglied seit 14.10.2021")
+                        Text("Born on 12/31/1990")
+                        Text("Regensburg, Bavaria")
+                        Text("120 Community-Points")
+                        Text("Member since 10/14/2021")
                     }
                     .textCase(nil)
                 
                     Section(header:
-                        Label("Lieblingsthemen", systemImage: "star.fill")
+                        Label("Favorite topics", systemImage: "star.fill")
                         .font(Font.system(size: 17, weight: .bold))
                         .foregroundColor(Color(UIColor(named: "Primary")!))
                         )
                     {
-                        Text("Private Bahngesellschaften")
-                        Text("Bundesnetzagentur")
-                        Text("Mobilfunkausbau")
+                        Text("Private railroad companies")
+                        Text("Federal Network Agency")
+                        Text("Mobile communications expansion")
                     }
                     .textCase(nil)
                     
                     Section(header:
-                        Label("Freunde", systemImage: "person.3.sequence.fill")
+                        Label("Friends", systemImage: "person.3.sequence.fill")
                         .font(Font.system(size: 17, weight: .bold))
                         .foregroundColor(Color(UIColor(named: "Primary")!))
                         )
                     {
                         FriendView(peopleImageAsset: "Anna", name: "Anna Summer")
-                        FriendView(peopleImageAsset: "Ian", name: "Ian Weiss")
+                        FriendView(peopleImageAsset: "Ian", name: "Ian White")
                     }
                     .textCase(nil)
                 }
                 .accentColor(Color(UIColor(named: "Primary")!))
             }
-            .navigationBarTitle("Profil", displayMode: .inline)
-            .navigationBarItems(trailing: Button(action: {}, label:{ Label("Einstellungen", systemImage: "gearshape.fill").foregroundColor(Color(UIColor(named: "Secondary")!))}))
+            .navigationBarTitle("Profile", displayMode: .inline)
+            .navigationBarItems(trailing: Button(action: {}, label:{ Label("Settings", systemImage: "gearshape.fill").foregroundColor(Color(UIColor(named: "Secondary")!))}))
         }
-    }
-}
-
-struct CommunityViewPreviews: PreviewProvider
-{
-    static var previews:some View
-    {
-        CommunityView();
     }
 }

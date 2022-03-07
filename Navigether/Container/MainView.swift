@@ -8,7 +8,7 @@ struct MainView:View
         {
             RoutesView()
                 .tabItem {
-                    Label("Routen", systemImage: "arrow.triangle.branch")
+                    Label("Routes", systemImage: "arrow.triangle.branch")
             }
             
             TicketsView()
@@ -16,14 +16,9 @@ struct MainView:View
                     Label("Tickets", systemImage: "ticket.fill")
             }
             
-            CommunityView()
+            ProfileView()
                 .tabItem {
                     Label("Community", systemImage: "person.2.fill")
-            }
-            
-            Text("Noch zu erledigen")
-                .tabItem {
-                    Label("Mehr", systemImage: "ellipsis")
             }
         }
         .accentColor(Color(UIColor(named: "Primary")!))

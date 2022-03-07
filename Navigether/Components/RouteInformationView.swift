@@ -21,24 +21,26 @@ struct RouteInformationView:View
             
             if(callBus)
             {
-                Button("Reservieren", action:
+                Button("Book", action:
                 {
                     callBusAlertDialogBox.toggle()
                 })
                 .alert(isPresented: $callBusAlertDialogBox, content:
                 {
                     
-                    let firstButton = Alert.Button.default(Text("Reservieren"))
-                    let secondButton = Alert.Button.destructive(Text("Abbrechen"))
+                    let firstButton = Alert.Button.default(Text("Book"))
+                    let secondButton = Alert.Button.destructive(Text("Cancel"))
                      
-                    return Alert(title: Text("Anruflinienbus\nLinie 15: 21:07 - 21:58 Uhr"), message: Text("Leierndorfer Str., Langquaid\nnach\nRegensburg Hauptbahnhof, Regensburg"), primaryButton: firstButton, secondaryButton: secondButton)
+                    return Alert(title: Text("Call Line Bus\nLine 15: 9:07 PM - 9:58 PM"), message: Text("Leierndorfer Str., Langquaid\nto\nRegensburg Central Station, Regensburg"), primaryButton: firstButton, secondaryButton: secondButton)
                 })
                 .foregroundColor(Color(UIColor(named: "Secondary")!))
+                .buttonStyle(BorderlessButtonStyle())
             }
             Spacer()
             
-            Button("Ticket kaufen", action:{})
+            Button("Buy Ticket", action:{})
             .foregroundColor(Color(UIColor(named: "Secondary")!))
+            .buttonStyle(BorderlessButtonStyle())
         }
     }
 }

@@ -9,20 +9,6 @@ struct TicketShareView:View
     {
         HStack(alignment: .center)
         {
-            Button(action:
-            {
-                UIApplication.shared.windows.first?.rootViewController?.present(UIActivityViewController(activityItems: [shareContent], applicationActivities: nil), animated: true, completion: nil)
-            },
-            label:
-            {
-                Label("Teilen", systemImage: "square.and.arrow.up")
-                .labelStyle(.titleAndIcon)
-                .foregroundColor(Color(UIColor(named: "Secondary")!))
-                
-            })
-            .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 10))
-            
-            
             ForEach(peopleImageAssets)
             {peopleImageAsset in
                 
@@ -30,6 +16,20 @@ struct TicketShareView:View
                     .resizable()
                     .frame(width: 30, height: 30)
             }
+            
+            Button(action:
+            {
+                UIApplication.shared.windows.first?.rootViewController?.present(UIActivityViewController(activityItems: [shareContent], applicationActivities: nil), animated: true, completion: nil)
+            },
+            label:
+            {
+                Label("", systemImage: "square.and.arrow.up")
+                .labelStyle(.titleAndIcon)
+                .foregroundColor(Color(UIColor(named: "Secondary")!))
+                
+            })
+            .padding(EdgeInsets(top: 0, leading: 5, bottom: 0, trailing: 0))
+            .buttonStyle(BorderlessButtonStyle())
         }
     }
 }
