@@ -5,9 +5,11 @@
 
 
 ## Introduction
-**Navigether** is a conceptual app that makes it possible to get along better in public transport. It provides features regarding routes, travel times, comfort information and tickets as well as the possibility to order on-call buses. In addition, users can also join a unique community for public transit.
+**Navigether** is a conceptual app that makes it possible to get along better in public transport. It provides features regarding routes, travel times, comfort information and tickets as well as the possibility to order on-call buses. In addition, users can also join a unique community for public transit. 
 
-It is written in Swift with the SwiftUI framework.
+Selected parts of the app are implemented.
+
+It is written in Swift 5.5 with the SwiftUI framework for iOS on the iPhone.
 <br><br>
 
 <p align="center">
