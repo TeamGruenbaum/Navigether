@@ -1,9 +1,7 @@
 # Navigether
-![Release](https://img.shields.io/badge/Release-0.1.0-9cf)
 ![Swift](https://img.shields.io/badge/Swift-5.5-9cf)
-![iOS](https://img.shields.io/badge/iOS-passing-blue)
-![MinAPI](https://img.shields.io/badge/MinAPI-13-blue)
-![TargetAPI](https://img.shields.io/badge/TargetAPI-15-blue)
+![iOS](https://img.shields.io/badge/iOS%20(iPhone)-passing-blue)
+![TargetAPI](https://img.shields.io/badge/TargetAPI-15.2-blue)
 
 
 ## Introduction
